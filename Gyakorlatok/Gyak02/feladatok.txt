@@ -1,0 +1,32 @@
+2.6. Számítási feladatok:	---
+
+Egy színt a CMY színtérben a (0.2,0.7,0.4) komponensekkel adtunk meg. Határozza meg a HSI, HSV és HSL színtérbeli értékeket!
+
+Számítsuk ki, hogy mennyi MBit/s adatátviteli sebességre van ahhoz szükség, hogy egy 1280x1024 felbontású videófolyamot 30 FPS-sel folyamatosan küldjünk (tömörítés nélkül)!
+
+2.7.1. Mátrixok, transzformációk	---
+
+Nézzük át a jegyzetben a koordináta transzformációkkal foglalkozó részt!
+
+Nézzük át a matrices példát az me-courses repository-ban!
+
+Végezzük el a kódban az alábbi bővítéseket!
+
+Definiáljunk egy init_identity_matrix függvényt, amelyik az egységmátrixot inicializálja!
+
+Definiáljunk függvényt a mátrix skalárral való szorzásához!
+
+A multiply_matrices függvényben implementáljunk a mátrix szorzást!
+
+Definiáljuk a transform_point függvényt, amelyik egy síkbeli, homogén koordinátákkal adott pontra végzi el a paraméterben kapott mátrix által leírt transzformációt!
+
+Írjunk 3 függvényt a transzformációkhoz, amelyik módosítja az első paraméterében kapott transzformációs mátrixot! A függvények neve legyen scale, shift, rotate! A skálázás és a forgatás origó középpontú legyen!
+
+Készítsünk példát minden elkészített függvény használatára vonatkozóan!
+
+2.7.2. Transzformációs verem	---
+Készítsünk egy verem struktúrát, amelynek az elemei transzformációs mátrixok!
+
+Valósítsuk meg a push_matrix és pop_matrix műveleteket!
+
+Készítsünk példát, amelyben ennek a segítségével „visszavonhatóak” lesznek a műveletek!
