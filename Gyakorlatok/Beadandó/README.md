@@ -11,6 +11,4 @@ C kódban-ban programozni.
 - 
 
 
-+	a camera látószöge legyen nagyobb minimális talaj méreten mikor távol megyünk legyen a látószögbe és ne legyen "fekete üresség" tehát picit 
-
- átlátható struktúra a kódhoz 
++	a camera látószöge legyen nagyobb minimális talaj méreten mikor távol megyünk legyen a látószögbe és ne legyen "fekete üresség" (megoldva)
